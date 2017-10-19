@@ -50,7 +50,7 @@ module.exports = function () {
 
     // Start the request.
     request(options, function (err, res, body) {
-        var data = JSON.parse(body);
+        data = JSON.parse(body);
         console.log(data[0]);
 
 
